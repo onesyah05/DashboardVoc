@@ -26,7 +26,7 @@ class DashboardController extends Controller
                         // ->where('tgl_add','<=', date('d-m-Y'))
                         // ->where('tgl_add','>=', date('01-m-Y'))
                         ->sum('jumlah');
-            dd($voc2rb);
+            // dd($voc2rb);
             $estiVoc2 = $voc2rb * 2000;
             
             $sewa2 = $estiVoc2 * 2 /100 ;
